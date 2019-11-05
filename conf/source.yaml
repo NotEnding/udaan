@@ -1,0 +1,29 @@
+headers:
+  accept: '*/*'
+  accept-encoding: gzip, deflate, br
+  accept-language: zh-CN,zh;q=0.9
+  authority: udaan.com
+  authorization: Bearer eyJraWQiOiI2TW53IiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJodHRwczovL2FwaS51ZGFhbi5jb20vIiwic3ViIjoiVVNSNE1CNEUwOTdCUTgyUTRMNTdENThRNUY2WFYiLCJyIjpbInVzZXIiXSwibmJmIjoxNTY4NTMxNzAzLCJpc3MiOiJhdXRoLnVkYWFuLmNvbSIsImV4cCI6MTU2ODUzMjMwMywibyI6Ik9SR0VFR1oyU0c2MFBDTDNGMFFORFlKM1lGMEdNIn0.pQOvniI5TF_qhPA9_Tg364xm0rZocj1W6mlHgKU4yesJGp6UCu8X_nKCIbtj6jMYH1zTwF14AtQsY3z3kl3TNw
+  method: GET
+  referer: https://udaan.com
+  scheme: https
+  upgrade-insecure-requests: '1'
+  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Ubuntu Chromium/68.0.3440.75 Chrome/68.0.3440.75 Safari/537.36
+mongo:
+  best_seller_collection: best_seller_listings_info
+  categories_collection: categories_info
+  db: public_udaan
+  fast_moving_collection: fast_moving_listings_info
+  host: 127.0.0.1
+  latest_arrival_collection: latest_arrival_listings_info
+  listing_collection: listings_info
+  org_collection: orgs_info
+  password: '123456'
+  port: 27017
+  username: admin
+redis:
+  db: 1
+  host: localhost
+  password: qwer
+  port: 6379
